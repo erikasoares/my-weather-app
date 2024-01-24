@@ -16,7 +16,7 @@ const Weather = () => {
 
             if (!response.ok) {
                 if (response.status === 404)
-                    throw new Error('City not found.');
+                    throw new Error('City not found!');
                 else
                     throw new Error('Something went wrong. Refresh this page and try again.');
             }
