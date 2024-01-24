@@ -22,7 +22,6 @@ const Weather = () => {
             }
 
             const data = await response.json();
-            console.log(data)
             setWeatherData(data);
             setUnit(units)
         } catch (error) {
